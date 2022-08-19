@@ -1,0 +1,263 @@
+
+@media (max-width: 1020px) {
+	.compare__picture {
+	  display: none;
+	}
+ 
+	.compare__count {
+	  width: 100%;
+	}
+}
+ 
+@media (max-width: 960px) {
+	.call-to-action__button {
+	  width: 45%;
+	}
+	.feature__column{
+	  padding: 0rem 1rem;
+	}
+ }
+
+@media (max-width: 720px) {
+	.call-to-action__column {
+	  padding: 3rem 4rem;
+	}
+ }
+
+@media (max-width: 870px) {
+	.features__row{
+	  padding: 1rem 0rem;
+	}
+	.footer-menu {
+	  display: block;
+ }
+ .footer-logo, .item__text{
+	display: inline-block;
+ }
+ 
+ .footer-logo{
+	margin-right: 30px;
+ }
+ .description{
+	margin-bottom: 25px;
+ }
+ .item__text{
+	width: 70%;
+	padding: 15px 0;
+	line-height: 2em;
+ }
+	.footer-menu__items{
+	  display: inline-block;
+	  vertical-align: top;
+	}
+	.documents, .menu-footer, .about-company{
+	  margin-right: 50px;
+	}
+ }
+
+@media(max-width: 720px){
+	.price__row{
+	  justify-content: space-around;
+	}
+	.price__column{
+	  margin-right: 0;
+	  width: 40%;
+	}
+	.partners__img{
+	  max-width: 80%;
+	}
+ }
+
+
+@media (max-width: 640px) {
+	.menu{
+	  display:none;
+	}
+	.compare__count {
+	  padding: 1rem;
+	}
+	.call-to-action__column{
+	  max-width: 100%;
+	}
+	.compare-plans__form {
+		 justify-content: space-between;
+	}
+	.compare-plans__item{
+	  width: 30%;
+	  margin-right: 0;
+	}
+	.feature__column{
+	  width: 90%;
+	  margin: 10px auto;
+	}
+ .features__row{
+	flex-direction: column;
+ 
+ }
+ .feature__text{
+ max-width: 100%;
+ 
+ }
+	.description{
+	margin-bottom: 25px;
+ }
+ 
+	.footer-menu__items{
+	  display: block;
+	  margin-bottom: 25px;
+	}
+	.item__text{
+	  width: 100%;
+	}
+ }
+
+@media(max-width: 512px){
+	.features{
+	  margin-top: 2.5rem;
+	}
+	.features__row, .how-it-works{
+	  margin-bottom: 2rem;
+	}
+	.subtitle{
+	  margin-bottom: 2rem;
+	}
+	.how-it-works, .call-to-action{
+	  padding: 2rem 0;
+ 
+	}
+	.call-to-action{
+	  padding-bottom: 2rem;
+	}
+	.call-to-action__column{
+	  padding: 2rem;
+	}
+	.compare-plans__label{
+	  padding-right: 25px;
+	}
+	.price{
+	  padding: 2rem 0;
+	}
+	.price__subtitle {
+	  margin-bottom: 2.25rem;
+ }
+	.price__row {
+	  justify-content: space-between;
+ }
+ .price__column {
+	margin-right: 0;
+	width: 48%;
+	box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+	border-radius: 10px;
+	padding-top: 1.875rem;
+ }
+ .price__item-price {
+	padding: 0.8125rem 0;
+	margin-bottom: 1.125rem;
+ }
+ .price__option, .review__subtitle {
+	margin-bottom: 1.25rem;
+ }
+ .partners {
+	padding: 2rem 0;
+ }
+ .partners__subtitle {
+	margin-bottom:2.25rem;
+ }
+ 
+ .review {
+	padding: 2rem 0;
+ }
+ .review__subtitle,.faq__subtitle {
+	margin-bottom: 2.25rem;
+	line-height: 1.5;
+ }
+ .review__row {
+	justify-content: space-between;
+ }
+ .review__column {
+	margin-right: 0;
+	padding: 1rem 2rem;
+	width: 48%;
+ }
+ .faq{
+	padding: 2rem 0;
+ }
+ .faq__subtitle {
+	margin-bottom: 2.25rem;
+ }
+ .faq__column {
+	margin-bottom: 2rem;
+ }
+ .faq__button {
+	width: 35%;
+ }
+ .map__card {
+	padding: 2rem 2.25rem 2rem 1rem;
+ }
+ .footer-menu {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+ }
+ .footer-rights__text {
+	font-size: 0.85em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+ }
+ .compare-plans__form {
+	flex-direction: column;
+ }
+ .compare-plans__item{
+	width: 100%;
+	margin-bottom: 15px;
+ }
+ .compare-plans__button{
+	margin-top: 30px;
+ }
+ }
+
+@media(max-width: 320px){
+	body{
+	  font-size: 14px;
+	}
+	.compare .compare__form, .price, .partners, .review {
+	  padding-top: 1rem;
+ }
+ .compare-plans{
+	padding: 1.5rem 0;
+ }
+ 
+ .features{
+	margin-top: 1rem;
+ }
+ .call-to-action__column, .review__column, .faq{
+	padding: 1rem;
+ }
+ .call-to-action__text, .how-it-works, .review, .review__subtitle, .faq__subtitle{
+	margin-bottom: 1rem;
+ }
+ .call-to-action__button, .faq__button{
+	width: 55%;
+ }
+ .price__row, .review__row{
+	flex-direction: column;
+ }
+ .price__column, .review__column{
+	width: 100%;
+	margin-bottom: 1rem;
+ }
+ .price, .review{
+	padding-bottom: 0;
+ }
+ .price__button, .price__button-even{
+	margin: 15px auto;
+ }
+ .item__text{
+	padding: 0;
+ }
+ .footer-menu{
+	padding-bottom: 0;
+ }
+ .footer-menu__items{
+	margin-bottom: 15px;
+ }
+ }
