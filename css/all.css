@@ -1128,81 +1128,77 @@ footer {
 .compare-plans__button{
 	margin-top: 30px;
  }
+ .compare .compare__form, .price, .partners, .review {
+  padding-top: 1rem;
+}
+.compare-plans{
+padding: 1.5rem 0;
 }
 
-@media(max-width: 320px){
-
-	.compare .compare__form, .price, .partners, .review {
-	  padding-top: 1rem;
- }
- .compare-plans{
-	padding: 1.5rem 0;
- }
- 
- .features{
-	margin-top: 1rem;
- }
- .how-it-works, .call-to-action{
-  padding: 1rem 0;
- }
- .how-it-works__row{
-  flex-direction: column;
- }
- .how-it-works__column {
-  width: 100%;
-  padding-right: 0;
-  margin-bottom: 15px;
- }
- .how-it-works__item-title{
-  margin-bottom: 15px;
- }
- .call-to-action__column, .review__column, .faq{
-	padding: 1rem;
- }
- .call-to-action__text, .how-it-works, .review, .review__subtitle, .faq__subtitle{
-	margin-bottom: 1rem;
- }
- .call-to-action__button, .faq__button{
-	width: 55%;
- }
- .call-to-action__button{
-  height: auto;
- }
- .price__row, .review__row{
-	flex-direction: column;
- }
- .price__column, .review__column{
-	width: 100%;
-	margin-bottom: 1rem;
- }
- .price, .review{
-	padding-bottom: 0;
- }
- .price__button, .price__button-even{
-	margin: 15px auto;
- }
- .map{
-  padding: 2.5rem 0 2.5rem 25px;
- }
- .footer__items{
-  display: block;
- }
- .item__text{
-	padding: 0;
- }
- .footer-menu{
-	padding-bottom: 0;
- }
- .footer-menu__items{
-	margin-bottom: 15px;
- }
- .follows{
-  text-align: left;
- }
- ._icon-fb, ._icon-in{
-  padding-left: 7px;
- }
- .footer-rights__text{
-  line-height: 1.5;
- }
- }
+.features{
+margin-top: 1rem;
+}
+.how-it-works, .call-to-action{
+padding: 1rem 0;
+}
+.how-it-works__row{
+flex-direction: column;
+}
+.how-it-works__column {
+width: 100%;
+padding-right: 0;
+margin-bottom: 15px;
+}
+.how-it-works__item-title{
+margin-bottom: 15px;
+}
+.call-to-action__column, .review__column, .faq{
+padding: 1rem;
+}
+.call-to-action__text, .how-it-works, .review, .review__subtitle, .faq__subtitle{
+margin-bottom: 1rem;
+}
+.call-to-action__button, .faq__button{
+width: 55%;
+}
+.call-to-action__button{
+height: auto;
+}
+.price__row, .review__row{
+flex-direction: column;
+}
+.price__column, .review__column{
+width: 100%;
+margin-bottom: 1rem;
+}
+.price, .review{
+padding-bottom: 0;
+}
+.price__button, .price__button-even{
+margin: 15px auto;
+}
+.map{
+padding: 2.5rem 0 2.5rem 25px;
+}
+.footer__items{
+display: block;
+}
+.item__text{
+padding: 0;
+}
+.footer-menu{
+padding-bottom: 0;
+}
+.footer-menu__items{
+margin-bottom: 15px;
+}
+.follows{
+text-align: left;
+}
+._icon-fb, ._icon-in{
+padding-left: 7px;
+}
+.footer-rights__text{
+line-height: 1.5;
+}
+}
